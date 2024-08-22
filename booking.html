@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Chiro Transient</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader-container">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <h1>Book Your Stay</h1>
+    </header>
+    <nav>
+        <a href="index.html" style="font-family: cursive;">Home</a>
+        <a href="rooms.html" style="font-family: cursive;">Rooms</a>
+        <a href="amenities.html" style="font-family: cursive;">Amenities</a>
+        <a href="contact.html" style="font-family: cursive;">Contact</a>
+        <a href="rates.html" style="font-family: cursive;">Rates</a>
+        <a href="booking.html" style="font-family:cursive">Book</a>
+    </nav>
+    <div class="container">
+        <form id="booking-form" style="font-family: cursive;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+            
+            <label for="room-type" style="font-family: cursive;">Room Type:</label>
+            <select id="room-type" name="room-type" required>
+                <option value="deluxe">Big Room</option>
+                <option value="suite">Suite</option>
+            </select>
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            
+            <button class="button" type="submit">Book Now</button>
+        </form>
+
+    </div>
+    <div class="footer">
+        <p style="font-family: cursive;">&copy; 2024 transienthousechiro. All rights reserved.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
