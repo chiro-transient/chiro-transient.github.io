@@ -110,13 +110,18 @@ input, select, button {
 }
 
 button {
-    background-color: var(--primary-color);
-    color: black;
-    border: black;
+   background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    width: 100%;
+    border-radius: 4px;
+    font-family: cursive;
+    font-size: 18px;
 }
 
 button:hover {
-    background-color: var(--accent-color);
+    background-color: #45a04;
 }
