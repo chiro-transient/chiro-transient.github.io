@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Booking Details:', bookingDetails);
 
             // Send data to Google Sheets via Apps Script Web App
-            fetch("https://script.google.com/macros/s/AKfycbwRkcr6AaQ_q2-zrGT6Gy0YwF0S1KvwLzTeLvzKD85n/dev", {
+            fetch("https://script.google.com/macros/s/AKfycbzHuVOBPzHpQpSOPY0NC6mIlTDeelpDx9qlASAlZi-CDcoSF5SsPAkHjrEmadGKwmG8kw/exec", {
                 method: 'POST',
                 body: JSON.stringify(bookingDetails),
                 headers: {
